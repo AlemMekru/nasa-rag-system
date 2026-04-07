@@ -8,6 +8,22 @@ This project demonstrates how Retrieval-Augmented Generation can be used to impr
 
 The system retrieves relevant mission documents using vector embeddings and then generates answers using a language model.
 
+## Architecture
+
+The system follows a Retrieval-Augmented Generation (RAG) pipeline:
+
+User Question  
+↓  
+Embedding Model  
+↓  
+Vector Database Search  
+↓  
+Retrieved Context  
+↓  
+Large Language Model  
+↓  
+Generated Answer
+
 ## Features
 
 - Semantic search using embeddings
