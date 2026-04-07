@@ -1,0 +1,47 @@
+[
+  {
+    "question": "What was the primary objective of Apollo 11?",
+    "answer": "To land humans on the Moon and return them safely to Earth.",
+    "contexts": [
+      "Apollo 11's mission was to land humans on the Moon and bring them back safely."
+    ],
+    "retrieved_doc_ids": ["apollo11_doc1", "apollo11_doc2"],
+    "relevant_doc_ids": ["apollo11_doc1"]
+  },
+  {
+    "question": "What caused the Apollo 13 emergency?",
+    "answer": "An oxygen tank explosion in the service module.",
+    "contexts": [
+      "Apollo 13 suffered an oxygen tank explosion in its service module."
+    ],
+    "retrieved_doc_ids": ["apollo13_doc1", "apollo13_doc2"],
+    "relevant_doc_ids": ["apollo13_doc1"]
+  },
+  {
+    "question": "How did Apollo 13 crew survive?",
+    "answer": "They used the lunar module as a lifeboat, conserved power, and improvised a CO2 scrubber.",
+    "contexts": [
+      "The crew used the lunar module as a lifeboat and improvised systems to survive."
+    ],
+    "retrieved_doc_ids": ["apollo13_doc3", "apollo13_doc4"],
+    "relevant_doc_ids": ["apollo13_doc3"]
+  },
+  {
+    "question": "What happened during the Challenger disaster?",
+    "answer": "The shuttle broke apart due to O-ring failure in cold temperatures.",
+    "contexts": [
+      "The Challenger disaster was caused by O-ring failure due to cold weather."
+    ],
+    "retrieved_doc_ids": ["challenger_doc1", "challenger_doc2"],
+    "relevant_doc_ids": ["challenger_doc1"]
+  },
+  {
+    "question": "What evidence explains the Challenger failure?",
+    "answer": "O-ring damage due to low temperature affecting booster joint sealing.",
+    "contexts": [
+      "Evidence showed O-ring damage caused by low temperatures affecting sealing."
+    ],
+    "retrieved_doc_ids": ["challenger_doc3", "challenger_doc4"],
+    "relevant_doc_ids": ["challenger_doc3"]
+  }
+]
